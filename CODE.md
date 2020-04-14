@@ -1,7 +1,7 @@
 # SIT210-Task3.1P-WebHook
 The code for my light sensing webhook task
 
-
+```
 int led = D7; 
 
 int photoresistor = A0;
@@ -24,8 +24,6 @@ void loop() {
     
     Particle.publish("light", light, PRIVATE);
     delay(30000);
-    
-    
  
 }
-
+```
